@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    
+  </head>
+  
+  <body>
+<!--- Heading to the page   -->
+  <div class= "heading">
+    <h1>Change Calculator</h1>
+  </div>
+
+
+<!--- Collect the user input   --> 
+  <div class= "input userinput">
+      <h2>$ Sale Amount:</h2>
+        <input type="number" name="saleAmount" id= "saleAmount" placeholder="$0.00">
+
+      <h2>$ Payment:</h2>
+        <input type="number" name="payment" id= "payment" placeholder="$0.00">
+
+<!--- Provide a button to calculate change   -->    
+    <div class= "btn-div">
+      <button class= "btn btn-primary btn-lg" type="button" id= "btnCalculateChange">$</button>
+    </div>
+  </div> 
+
+
+
+<!--- Print out change amounts to the page   -->
+<!--- Dollars first   -->
+    <div class= "dollar-div">
+    <h2>Dollars</h2>
+      <p id= "outputDollars"></p>
+    </div>
+
+<!--- then quarters div   -->
+    <div class="quarter-div">
+
+      <img src= "quarter.png" class="coin-pictures">
+      <h2 class="coin-name">Quarters</h2>
+        
+        <p id= "outputQuarters"></p>
+    </div>
+
+<!--- then dime div   --> 
+    <div class= "dime-div"> 
+      <img src= "dime.png" class="coin-pictures">    
+      <h2 class="coin-name">Dimes</h2>
+        <p id= "outputDimes"></p>
+    </div>
+
+<!--- then nickle div   -->     
+    <div class= "nickle-div"> 
+      <h2 class="coin-name">Nickles</h2>
+        <p id= "outputNickles"></p>
+    </div>
+
+<!--- then penny div   -->  
+    <div class= "penny-div"> 
+      <img src= "penny.png" class="coin-pictures">
+      <h2 class="coin-name">Pennies</h2>
+        <p id= "outputPennies"></p> 
+    </div>
+
+
+
+
+  <script src= "bower_components/jquery/dist/jquery.js"></script>
+  <script src= "index.json"></script>
+  <script src= "index.js"></script>
+  
+  </body>
+  <footer>
+  
+  
+  </footer>
+</html>

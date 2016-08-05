@@ -1,0 +1,86 @@
+body {
+	font-family: Josefin Sans;
+	background-color: #82a389;
+	background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+}
+
+h2{
+	margin-top: 18px;
+}
+
+.heading {
+	background-color: rgba(0, 0, 0, .5);
+	color: rgb(255, 255, 255);
+	margin: 30px 0px 10px 80px;
+	text-align: center;
+	height: 90px;
+	padding-top: 2%;
+	padding-left: 2%;
+	text-size: 40px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom: 3px solid white;
+
+}
+
+.userinput {
+	background-color: rgba(0, 0, 0, .5);
+	color: rgb(255, 255, 255);
+	margin: 30px 0px 10px 80px;
+	text-align: center;
+	height: 90%;
+	padding-top: 2%;
+	padding-bottom: 4%;
+	text-size: 3rem;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom: 3px solid white;
+	
+}
+
+#sale-amount {
+	margin-bottom: 5px;
+}
+
+.btn,
+.btn-primary,
+.btn-lg {
+	background-color: white;
+	color: black;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	margin-top: 30px;
+	border: 8px solid #82a389;
+}
+
+.coin-pictures{
+	height: 75px;
+	width: 75px;
+	border: 6px solid #82a389;
+	border-radius: 50%;
+	float: left;
+	margin-left: -20px;
+	margin-top: -40px;
+}
+
+.dollar-div,
+.quarter-div,
+.dime-div,
+.nickle-div,
+.penny-div {
+	background-color: rgba(0, 0, 0, .5);
+	color: rgb(255, 255, 255);
+	margin: 20px 0px 32px 0px;
+	margin-left: 45%;
+	text-align: center;
+	height: 90%;
+	width: 55%;
+	padding-top: 2%;
+	padding-bottom: 4%;
+	text-size: 3rem;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom: 3px solid white;
+}
+

@@ -1,0 +1,28 @@
+
+
+var change = [
+
+{
+	"moneyType" 	: "dollar",
+	"moneyValue" 	: "1.00",
+},
+{
+	"moneyType" 	: "quarter",
+	"moneyValue" 	: "0.25",
+},
+{
+	"moneyType" 	: "dime",
+	"moneyValue" 	: "0.1",
+},
+{
+	"moneyType" 	: "nickle",
+	"moneyValue" 	: "0.05",
+},
+{
+	"moneyType" 	: "penny",
+	"moneyValue" 	: "0.01",
+}
+
+]
+
+for(i= 0, change.length, )
